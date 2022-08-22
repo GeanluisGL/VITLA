@@ -11,3 +11,16 @@ C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\
 C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA\NLayer\obj\Debug\NLayer.csproj.CopyComplete
 C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA\NLayer\obj\Debug\NLayer.dll
 C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA\NLayer\obj\Debug\NLayer.pdb
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\NLayer\bin\Debug\NLayer.dll.config
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\NLayer\bin\Debug\NLayer.dll
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\NLayer\bin\Debug\NLayer.pdb
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\NLayer\bin\Debug\DLayer.dll
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\NLayer\bin\Debug\ELayer.dll
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\NLayer\bin\Debug\DLayer.pdb
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\NLayer\bin\Debug\DLayer.dll.config
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\NLayer\bin\Debug\ELayer.pdb
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\NLayer\obj\Debug\NLayer.csproj.AssemblyReference.cache
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\NLayer\obj\Debug\NLayer.csproj.CoreCompileInputs.cache
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\NLayer\obj\Debug\NLayer.csproj.CopyComplete
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\NLayer\obj\Debug\NLayer.dll
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\NLayer\obj\Debug\NLayer.pdb

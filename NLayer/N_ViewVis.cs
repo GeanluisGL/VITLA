@@ -25,5 +25,25 @@ namespace NLayer
             return objDato.ListarVisA(name);
         }
 
+
+
+        public void Updatte(E_ViewVis _ViewVis)
+        {
+            D_ViewVis objdato = new D_ViewVis();
+            objdato.updateA(_ViewVis);
+        }
+
+        public void Delet(E_ViewVis _ViewVis)
+        {
+            D_ViewVis objdato = new D_ViewVis();
+            objdato.DeleteA(_ViewVis);
+        }
+
+        public void Showlist()
+        {
+            D_ViewVis objD = new D_ViewVis();
+            objD.Showlist();
+        }
+
     }
 }

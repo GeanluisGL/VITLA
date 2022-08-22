@@ -4,3 +4,9 @@ C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\
 C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA\ELayer\obj\Debug\ELayer.csproj.CoreCompileInputs.cache
 C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA\ELayer\obj\Debug\ELayer.dll
 C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA\ELayer\obj\Debug\ELayer.pdb
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\ELayer\bin\Debug\ELayer.dll
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\ELayer\bin\Debug\ELayer.pdb
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\ELayer\obj\Debug\ELayer.csproj.AssemblyReference.cache
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\ELayer\obj\Debug\ELayer.csproj.CoreCompileInputs.cache
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\ELayer\obj\Debug\ELayer.dll
+C:\Users\geanl\Documents\Yan\Codes\999_Class\C5\Programacion 2\T9-Proyecto F\T1\VITLA1\ELayer\obj\Debug\ELayer.pdb

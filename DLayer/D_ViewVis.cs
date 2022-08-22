@@ -101,7 +101,63 @@ namespace DLayer
             leerR.Close();
             return list;
         }
-        
+
+        public void updateA(E_ViewVis e_ViewVis)
+        {
+
+            SqlCommand cmd = new SqlCommand("sp_UpdateC", conectar);
+            cmd.CommandType = CommandType.StoredProcedure;
+            AbrirConexion();
+
+            cmd.Parameters.AddWithValue("@ID", e_ViewVis.ID);
+            cmd.Parameters.AddWithValue("@Nombrev", e_ViewVis.Nombre_Visitante);
+            cmd.Parameters.AddWithValue("@Apel", e_ViewVis.Apellido);
+            cmd.Parameters.AddWithValue("@Carrera", e_ViewVis.Carrera);
+            cmd.Parameters.AddWithValue("@Mail", e_ViewVis.Correo);
+            cmd.Parameters.AddWithValue("@Edif", e_ViewVis.Id_Edificio);
+            cmd.Parameters.AddWithValue("@AulaR", e_ViewVis.Aula);
+            cmd.Parameters.AddWithValue("@Checkin", e_ViewVis.Check_in);
+            cmd.Parameters.AddWithValue("@Checout", e_ViewVis.Check_out);
+            cmd.Parameters.AddWithValue("@MotV", e_ViewVis.Motivo_Visita);
+            //cmd.Parameters.AddWithValue("@PhVis", e_ViewVis.Foto_Visita);
+
+
+
+
+            cmd.ExecuteNonQuery();
+            CerrarConexion();
+        }
+
+        public DataTable Showlist()
+        {
+            SqlDataReader leer;
+            DataTable dataTable = new DataTable();
+            SqlCommand cmd = new SqlCommand();
+
+            cmd.Connection = AbrirConexion();
+            cmd.CommandText = "Select * From vwVisits";
+            cmd.CommandType = CommandType.Text;
+            leer = cmd.ExecuteReader();
+            dataTable.Load(leer);
+            conectar.Close();
+            return dataTable;
+        }
+
+        public void DeleteA(E_ViewVis e_ViewVis)
+        {
+
+            SqlCommand cmd = new SqlCommand("sp_DeleteC", conectar);
+            cmd.CommandType = CommandType.StoredProcedure;
+            AbrirConexion();
+
+            cmd.Parameters.AddWithValue("@ID", e_ViewVis.ID);
+
+            cmd.ExecuteNonQuery();
+            CerrarConexion();
+
+        }
+
+
     }
 
 

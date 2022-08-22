@@ -31,6 +31,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.CheckInBtn = new System.Windows.Forms.DateTimePicker();
+            this.CheckOut = new System.Windows.Forms.DateTimePicker();
+            this.Editbt = new Guna.UI.WinForms.GunaAdvenceButton();
             this.DeletU = new Guna.UI.WinForms.GunaAdvenceButton();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.ContBtn = new Guna.UI.WinForms.GunaAdvenceButton();
@@ -45,9 +48,6 @@
             this.ImagU = new Guna.UI.WinForms.GunaAdvenceButton();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.Editbt = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.CheckOut = new System.Windows.Forms.DateTimePicker();
-            this.CheckInBtn = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -97,6 +97,57 @@
             this.panel2.TabIndex = 40;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
+            // CheckInBtn
+            // 
+            this.CheckInBtn.Font = new System.Drawing.Font("Sitka Small", 12F);
+            this.CheckInBtn.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.CheckInBtn.Location = new System.Drawing.Point(419, 150);
+            this.CheckInBtn.Name = "CheckInBtn";
+            this.CheckInBtn.Size = new System.Drawing.Size(161, 27);
+            this.CheckInBtn.TabIndex = 44;
+            // 
+            // CheckOut
+            // 
+            this.CheckOut.Font = new System.Drawing.Font("Sitka Small", 12F);
+            this.CheckOut.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.CheckOut.Location = new System.Drawing.Point(419, 187);
+            this.CheckOut.Name = "CheckOut";
+            this.CheckOut.Size = new System.Drawing.Size(161, 27);
+            this.CheckOut.TabIndex = 43;
+            // 
+            // Editbt
+            // 
+            this.Editbt.AnimationHoverSpeed = 0.07F;
+            this.Editbt.AnimationSpeed = 0.03F;
+            this.Editbt.BaseColor = System.Drawing.Color.Green;
+            this.Editbt.BorderColor = System.Drawing.Color.Black;
+            this.Editbt.CheckedBaseColor = System.Drawing.Color.Chartreuse;
+            this.Editbt.CheckedBorderColor = System.Drawing.Color.Black;
+            this.Editbt.CheckedForeColor = System.Drawing.Color.White;
+            this.Editbt.CheckedImage = global::VITLA.Properties.Resources.Login;
+            this.Editbt.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.Editbt.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.Editbt.FocusedColor = System.Drawing.Color.Empty;
+            this.Editbt.Font = new System.Drawing.Font("Segoe UI", 12.25F);
+            this.Editbt.ForeColor = System.Drawing.Color.White;
+            this.Editbt.Image = null;
+            this.Editbt.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Editbt.ImageSize = new System.Drawing.Size(20, 20);
+            this.Editbt.LineColor = System.Drawing.Color.Blue;
+            this.Editbt.Location = new System.Drawing.Point(92, 275);
+            this.Editbt.Name = "Editbt";
+            this.Editbt.OnHoverBaseColor = System.Drawing.Color.OliveDrab;
+            this.Editbt.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.Editbt.OnHoverForeColor = System.Drawing.Color.LightGray;
+            this.Editbt.OnHoverImage = null;
+            this.Editbt.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.Editbt.OnPressedColor = System.Drawing.Color.Black;
+            this.Editbt.Size = new System.Drawing.Size(98, 33);
+            this.Editbt.TabIndex = 42;
+            this.Editbt.Text = "Editar";
+            this.Editbt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Editbt.Click += new System.EventHandler(this.Editbt_Click);
+            // 
             // DeletU
             // 
             this.DeletU.AnimationHoverSpeed = 0.07F;
@@ -128,6 +179,7 @@
             this.DeletU.TabIndex = 41;
             this.DeletU.Text = "Delete";
             this.DeletU.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.DeletU.Click += new System.EventHandler(this.DeletU_Click);
             // 
             // dataGridView1
             // 
@@ -168,6 +220,7 @@
             this.ContBtn.TabIndex = 38;
             this.ContBtn.Text = "Continue";
             this.ContBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ContBtn.Click += new System.EventHandler(this.ContBtn_Click);
             // 
             // label1
             // 
@@ -189,7 +242,7 @@
             this.VsMotive.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.VsMotive.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.VsMotive.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.VsMotive.Location = new System.Drawing.Point(405, 79);
+            this.VsMotive.Location = new System.Drawing.Point(405, 82);
             this.VsMotive.MultiLine = true;
             this.VsMotive.Name = "VsMotive";
             this.VsMotive.PasswordChar = '\0';
@@ -209,7 +262,7 @@
             this.CLrCbox.FormattingEnabled = true;
             this.CLrCbox.Items.AddRange(new object[] {
             ""});
-            this.CLrCbox.Location = new System.Drawing.Point(405, 52);
+            this.CLrCbox.Location = new System.Drawing.Point(405, 50);
             this.CLrCbox.Name = "CLrCbox";
             this.CLrCbox.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.CLrCbox.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -338,57 +391,6 @@
             this.label5.Size = new System.Drawing.Size(95, 24);
             this.label5.TabIndex = 27;
             this.label5.Text = "Classroom";
-            // 
-            // Editbt
-            // 
-            this.Editbt.AnimationHoverSpeed = 0.07F;
-            this.Editbt.AnimationSpeed = 0.03F;
-            this.Editbt.BaseColor = System.Drawing.Color.Green;
-            this.Editbt.BorderColor = System.Drawing.Color.Black;
-            this.Editbt.CheckedBaseColor = System.Drawing.Color.Chartreuse;
-            this.Editbt.CheckedBorderColor = System.Drawing.Color.Black;
-            this.Editbt.CheckedForeColor = System.Drawing.Color.White;
-            this.Editbt.CheckedImage = global::VITLA.Properties.Resources.Login;
-            this.Editbt.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.Editbt.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.Editbt.FocusedColor = System.Drawing.Color.Empty;
-            this.Editbt.Font = new System.Drawing.Font("Segoe UI", 12.25F);
-            this.Editbt.ForeColor = System.Drawing.Color.White;
-            this.Editbt.Image = null;
-            this.Editbt.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.Editbt.ImageSize = new System.Drawing.Size(20, 20);
-            this.Editbt.LineColor = System.Drawing.Color.Blue;
-            this.Editbt.Location = new System.Drawing.Point(92, 275);
-            this.Editbt.Name = "Editbt";
-            this.Editbt.OnHoverBaseColor = System.Drawing.Color.OliveDrab;
-            this.Editbt.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.Editbt.OnHoverForeColor = System.Drawing.Color.LightGray;
-            this.Editbt.OnHoverImage = null;
-            this.Editbt.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.Editbt.OnPressedColor = System.Drawing.Color.Black;
-            this.Editbt.Size = new System.Drawing.Size(98, 33);
-            this.Editbt.TabIndex = 42;
-            this.Editbt.Text = "Editar";
-            this.Editbt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.Editbt.Click += new System.EventHandler(this.Editbt_Click);
-            // 
-            // CheckOut
-            // 
-            this.CheckOut.Font = new System.Drawing.Font("Sitka Small", 12F);
-            this.CheckOut.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.CheckOut.Location = new System.Drawing.Point(419, 187);
-            this.CheckOut.Name = "CheckOut";
-            this.CheckOut.Size = new System.Drawing.Size(161, 27);
-            this.CheckOut.TabIndex = 43;
-            // 
-            // CheckInBtn
-            // 
-            this.CheckInBtn.Font = new System.Drawing.Font("Sitka Small", 12F);
-            this.CheckInBtn.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.CheckInBtn.Location = new System.Drawing.Point(419, 150);
-            this.CheckInBtn.Name = "CheckInBtn";
-            this.CheckInBtn.Size = new System.Drawing.Size(161, 27);
-            this.CheckInBtn.TabIndex = 44;
             // 
             // ViewVis
             // 
