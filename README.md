@@ -5,7 +5,7 @@ Elaborar un sistema que permita registrar las visitas a los distintos edificios 
 
 ### El sistema consiste en tener una pantalla para registrar los visitantes de los edificios, los datos a capturar son los siguientes:
 
-####### Un formulario de login  para poder autenticar al usuario, tener usuario general y usuario administrador
+###### Un formulario de login  para poder autenticar al usuario, tener usuario general y usuario administrador
 
 ##### Un formulario de registro y deben capturar los siguientes datos: Nombre, apellido, carrera(Opcional), correo(Opcional un masktext para correo), Edificio(Combobox automático), Hora de entrada(Calendario),Hora de salida(Calendario), motivo de la visita, fotos del visitante(Opcional), Aula ó lugar al  que se dirige(Debe ser un combobox de forma automatica te permita escoger las aulas del edificio seleccionado ).
 
