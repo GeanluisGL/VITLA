@@ -1,5 +1,4 @@
- # 🏛️ VITLA - Sistema de Gestión de Visitas ITLA
-
+ # 🏛️ VITLA - Sistema de Gestión de Visitas ITLA 
 [![GitHub](https://img.shields.io/badge/Repositorio-GeanluisGL%2FVITLA-blue?logo=github)](https://github.com/GeanluisGL/VITLA)
 [![Estado del Proyecto](https://img.shields.io/badge/Estado-Completado-brightgreen)]()
 [![Lenguaje](https://img.shields.io/badge/Lenguaje-C%23-purple)]()
